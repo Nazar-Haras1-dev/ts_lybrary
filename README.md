@@ -33,3 +33,4 @@ export default defineConfig({
 
 ## Висновок: webpack vs Vite
 webpack 5.112.2 compiled successfully in 5046 ms
+VITE v8.3.5  ready in 197 ms
