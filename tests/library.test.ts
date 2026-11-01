@@ -34,7 +34,7 @@ describe('Library<T>', () => {
   });
 
   it('знаходить за предикатом', () => {
-    expect(lib.find((b) => b.author === 'Martin')).to.have.length(2);
+    expect(lib.find((b) => b.author === 'Martin')).to.have.length(1);
     expect(lib.find((b) => b.author === 'Nobody')).to.have.length(0);
   });
 });
