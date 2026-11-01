@@ -8,7 +8,7 @@
     "lint": "eslint src tests --ext .ts",
     "test": "mocha",
     "prepare": "husky",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist -e webpack --add"
   },
   "devDependencies": {
     "@types/chai": "^4.3.20",
